@@ -8,7 +8,7 @@ import (
 )
 
 func tellTime(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, time.Now().Format("2006012150405"))
+  fmt.Fprintf(w, time.Now().Format("Jan 01, 2006 at 3:04pm"))
 }
 
 func main(){
